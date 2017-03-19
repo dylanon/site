@@ -38,5 +38,9 @@
 // Import partials from the `minima` theme.
 //@import "minima";
 
+// Variables
+$home-width: 500px;
+
 // Import partials from `bootstrap-sass`
 @import "bootstrap-custom";
+@import "style";
