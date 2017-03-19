@@ -3,3 +3,24 @@
  * Copyright 2017 Dylan On
  * Licensed under MIT (https://github.com/dylanon/site/blob/master/LICENSE.txt)
  */
+
+.home.container {
+	max-width: $home-width;
+	min-height: 100vh;
+	position: relative;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+ .home {
+
+	.content-home {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-70%);
+		padding: 10px;
+		margin: 0 25px 0 25px;
+		font-size: 18px;
+	}
+
+}

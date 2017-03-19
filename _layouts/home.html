@@ -2,9 +2,14 @@
 layout: default
 ---
 
-<div class="container">
+<div class="home container">
 
-  <h1 class="page-heading">Posts</h1>
+<div class="content-home text-lowercase text-justify">
+  {{ content }}
+</div>
+
+<!-- Blog Posts -->
+<!--   <h1 class="page-heading">Posts</h1>
   
   {{ content }}
 
@@ -20,6 +25,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
 
 </div>
