@@ -2,11 +2,14 @@
 layout: home
 ---
 
-Hi. My name is Dylan On.
+<p class="h1">Hi. My name is Dylan On.</p>
 
-I'm passionate about performance and tech. I'm an arts administrator by day and
-a web designer by night. I'm a self-taught coder, occasional theatre producer,
-and more frequent theatre tweeter. Read [my blog](#) or check out some quick thoughts
-on [Twitter](https://twitter.com/dylanon).
+I'm passionate about **performance and tech**. I'm an arts administrator by day and
+a web designer by night - a self-taught coder, occasional theatre producer,
+and more frequent theatre tweeter. 
 
-Need a site, or a code monkey for your next project? [E-mail me](#) - let's make it happen!
+Read [my blog](#) or follow my up-to-the-minute thoughts on [Twitter](https://twitter.com/dylanon).
+
+***
+
+<p class="small">Need a site, or a code monkey for your next project?<br><a href="#">E-mail me</a> - Let's make it happen!</p>

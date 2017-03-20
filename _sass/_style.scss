@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/dylanon/site/blob/master/LICENSE.txt)
  */
 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 .home.container {
 	max-width: $home-width;
 	min-height: 100vh;
@@ -17,10 +19,12 @@
 	.content-home {
 		position: absolute;
 		top: 50%;
-		transform: translateY(-70%);
+		transform: translateY(-55%);
 		padding: 10px;
 		margin: 0 25px 0 25px;
-		font-size: 18px;
 	}
 
+	hr {
+		margin-bottom: 5px;
+	}
 }

@@ -39,9 +39,16 @@
 //@import "minima";
 
 // Variables
-$home-width: 		500px;
-$brand-primary:     #458c24;
+$home-width: 				525px;
+$brand-primary:     		#458c24;
+$font-family-sans-serif:  	"Josefin Sans", sans-serif;
+$font-family-serif:       	Georgia, "Times New Roman", Times, serif !default;
+$hr-border: 				#bdbfbf;
+$font-size-base:          	18px;
+$font-size-small:         	ceil(($font-size-base * 0.8));
 
 // Import partials from `bootstrap-sass`
 @import "bootstrap-custom";
+
+// Import custom styles
 @import "style";
