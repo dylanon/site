@@ -6,25 +6,37 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-.home.container {
-	max-width: $home-width;
+.viewport-high {
 	min-height: 100vh;
 	position: relative;
-	padding-right: 0;
-	padding-left: 0;
 }
 
- .home {
-
-	.content-home {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-55%);
-		padding: 10px;
-		margin: 0 25px 0 25px;
-	}
+.home-content {
+	width: 100%;
+	max-width: $home-width;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -55%);
+	left: 50%;
+	padding: 25px;
 
 	hr {
 		margin-bottom: 5px;
 	}
 }
+
+// .home-footer {
+// 	position: absolute;
+// 	bottom: 5px;
+// 	right: 15px;
+// 	color: $gray-light;
+
+// 	ul {
+// 		margin: 0;
+// 	}
+
+// 	li {
+// 		display: inline;
+// 		list-style: none;
+// 	}
+// }
