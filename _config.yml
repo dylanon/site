@@ -32,3 +32,4 @@ exclude:
   - Gemfile.lock
   - node_modules
   - README-minima.md
+google_analytics: UA-27894778-6
