@@ -31,8 +31,13 @@
 	opacity: 0;
 }
 
+// Homepage Twitter hover
 body {
-	transition: background-color 1s;
+	transition: background-color 0.8s, color 0.8s;
+}
+
+a {
+	transition: color 0.8s;
 }
 
 // .home-footer {
