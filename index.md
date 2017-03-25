@@ -11,7 +11,7 @@ layout: home
 	and more frequent theatre tweeter.
 </p>
 <p>
-	I'll have a blog here soon. Until then, follow my up-to-the-minute thoughts on <a href="https://twitter.com/dylanon">Twitter</a>.
+	I'll have a blog here soon. Until then, follow my up-to-the-minute thoughts on <a href="https://twitter.com/dylanon" class="twitter">Twitter</a>.
 </p>
 <hr>
 <p class="small">Need a site, or a code monkey for your next project?<br><a href="mailto:hey@dylanon.com">E-mail me</a> - Let's make it happen!</p>
