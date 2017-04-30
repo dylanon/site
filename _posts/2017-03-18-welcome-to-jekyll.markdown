@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll"
 date:   2017-03-18 15:34:23 -0400
-categories: jekyll update
+categories: longform
 permalink: /post
 author: Dylan On
 ---
