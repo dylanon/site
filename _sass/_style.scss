@@ -6,6 +6,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+// Utility Classes
+
+.clearboth {
+	clear: both;
+}
+
+// Home
+
 .viewport-high {
 	min-height: 100vh;
 	position: relative;
@@ -59,3 +67,23 @@ hr {
 // 		list-style: none;
 // 	}
 // }
+
+// Blog
+
+.post-view.container {
+	max-width: 700px;
+	margin-top: 48px;
+}
+
+.post-title,
+.post-meta {
+	text-transform: lowercase;
+}
+
+.post-meta {
+	float: right;
+}
+
+.post hr {
+	margin: 10px 0;
+}
