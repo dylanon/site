@@ -4,7 +4,8 @@
  * Licensed under MIT (https://github.com/dylanon/site/blob/master/LICENSE.txt)
  */
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+// @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 // Utility Classes
 
@@ -14,23 +15,52 @@
 
 // Home
 
-.viewport-high {
-	min-height: 100vh;
-	position: relative;
-}
+// .viewport-high {
+// 	min-height: 100vh;
+// 	position: relative;
+// }
 
 .home-content {
 	width: 100%;
 	max-width: $home-width;
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -55%);
-	left: 50%;
-	padding: 25px;
+	margin: 24px auto;
+	// position: absolute;
+	// top: 50%;
+	// transform: translate(-50%, -55%);
+	// left: 50%;
+	// padding: 25px;
 
 	hr {
 		margin-top: 25px;
 		margin-bottom: 5px;
+	}
+}
+
+.headshot {
+	width: 197px;
+	clip-path: circle(100px at center);
+	display: block;
+	margin: 20px auto;
+}
+
+.panel {
+	padding: 10px;
+	color: #ffffff;
+
+	p {
+		margin: 0;
+	}
+}
+
+.subpanel {
+	@extend .panel;
+	background-color: $subpanel-bg;
+	width: 75%;
+	margin: 5px auto 12px auto;
+	color: #eb8313;
+
+	a {
+		text-decoration: underline;
 	}
 }
 
