@@ -51,6 +51,7 @@ $font-size-base:          	18px;
 $font-size-small:         	ceil(($font-size-base * 0.8));
 $panel-bg:					#fd972a;
 $subpanel-bg:				#ffffff;
+$border-radius-base:       	7px;
 
 // Import partials from `bootstrap-sass`
 @import "bootstrap-custom";

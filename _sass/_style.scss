@@ -20,6 +20,17 @@
 // 	position: relative;
 // }
 
+.text-accent {
+	color: #eb8313;
+}
+
+.headshot {
+	width: 197px;
+	clip-path: circle(100px at center);
+	display: block;
+	margin: 40px auto 20px auto;
+}
+
 .home-content {
 	width: 100%;
 	max-width: $home-width;
@@ -36,11 +47,12 @@
 	}
 }
 
-.headshot {
-	width: 197px;
-	clip-path: circle(100px at center);
-	display: block;
-	margin: 20px auto;
+@media ( min-width: $screen-sm-min ) {
+
+	.home-content {
+		margin-top: 125px;
+	}
+
 }
 
 .panel {

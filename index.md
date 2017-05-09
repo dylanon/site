@@ -3,7 +3,7 @@ layout: home
 ---
 
 <div class="row">
-	<div class="col-sm-4">
+	<div class="col-sm-4 position-relative">
 		<img class="headshot" src="assets/dylan_on_headshot.jpg" />
 	</div>
 	<div class="col-sm-8">
