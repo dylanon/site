@@ -40,10 +40,11 @@
 
 // Variables
 $body-bg:					#f7f7f7;
-$home-width: 				850px;
+$home-width: 				775px;
 $post-width:				600px;
 $page-width:				500px;
 $brand-primary:     		#eb8313;
+$link-hover-color:			#eb8313;
 $font-family-sans-serif:  	"Roboto", sans-serif;
 $font-family-serif:       	Georgia, "Times New Roman", Times, serif !default;
 $hr-border: 				#bdbfbf;
@@ -52,6 +53,7 @@ $font-size-small:         	ceil(($font-size-base * 0.8));
 $panel-bg:					#fd972a;
 $subpanel-bg:				#ffffff;
 $border-radius-base:       	7px;
+$shadow-color:				#d6d8db;
 
 // Import partials from `bootstrap-sass`
 @import "bootstrap-custom";

@@ -20,10 +20,6 @@
 // 	position: relative;
 // }
 
-.text-accent {
-	color: #eb8313;
-}
-
 .headshot {
 	width: 197px;
 	clip-path: circle(100px at center);
@@ -55,9 +51,25 @@
 
 }
 
+.home-lead-text,
+.home-links {
+	font-size: 22px;
+}
+
+.home-links {
+	margin-top: 24px;
+}
+
+.mynameis {
+	filter: drop-shadow(1px 1px 1px $shadow-color);
+	margin-bottom: 25px;
+}
+
 .panel {
-	padding: 10px;
+	padding: 10px 24px;
 	color: #ffffff;
+	filter: drop-shadow(1px 1px 1px $shadow-color);
+	font-size: 16px;
 
 	p {
 		margin: 0;
@@ -70,11 +82,17 @@
 	width: 75%;
 	margin: 5px auto 12px auto;
 	color: #eb8313;
+	filter: drop-shadow(1px 1px 1px #93969f);
 
 	a {
 		text-decoration: underline;
 	}
 }
+
+.text-accent {
+	color: #eb8313;
+}
+
 
 // Set up homepage fade-in effect
 // .hi,
