@@ -16,7 +16,7 @@ layout: home
 
 </div>
 
-<div class="container text-center">
+<div class="home-text container text-center">
 
 	<div class="row">
 
