@@ -34,7 +34,6 @@
 
 .headshot-container {
 	padding: 0;
-	margin-bottom: 25px;
 	position: relative;
 }
 
@@ -59,6 +58,7 @@
 }
 
 .home-text {
+	margin-top: 25px;
 	margin-bottom: 25px;
 }
 
@@ -159,6 +159,37 @@
 // .hometext {
 // 	opacity: 0;
 // }
+
+// Home - Desktop and landscape iPad
+.home-desktop {
+	display: none;
+}
+
+@media ( min-width: $screen-desktop ) and ( orientation: landscape ) {
+	.panel-mynameis,
+	.home-text {
+		display: none;
+	}
+	.home-desktop {
+		display: block;
+	}
+	.home-desktop-description {
+		font-size: $font-size-base * 1.1;
+		width: 90%;
+		margin: auto;
+	}
+	.home-desktop-text {
+		position: absolute;
+		top: 35%;
+		left: 10%;
+		transform: translateY(-50%);
+		width: 40%;
+		text-align: center;
+	}
+	.home-desktop-text p {
+		margin-bottom: 18px;
+	}
+}
 
 // Homepage Twitter hover
 body {
