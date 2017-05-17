@@ -51,12 +51,6 @@
 	background: url("dylan_on_headshot.jpg") 80% center/cover;
 }
 
-@media ( min-width: $screen-tablet ) {
-	.home-headshot {
-		background-position: right center;
-	}
-}
-
 .home-text {
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -74,7 +68,6 @@
 	bottom: 0px;
 	left: 25px;
 	right: 25px;
-	// transform: translateX(-50%);
 	margin: 35px auto;
 }
 
@@ -152,7 +145,6 @@
 	color: $brand-primary;
 }
 
-
 // Set up homepage fade-in effect
 // .hi,
 // .mynameis,
@@ -160,34 +152,47 @@
 // 	opacity: 0;
 // }
 
-// Home - Desktop and landscape iPad
-.home-desktop {
+// Home - Tablet and Desktop
+.home-expanded {
 	display: none;
 }
 
-@media ( min-width: $screen-desktop ) and ( orientation: landscape ) {
+@media ( min-width: $screen-sm-min ) {
 	.panel-mynameis,
 	.home-text {
 		display: none;
 	}
-	.home-desktop {
+	.home-expanded {
 		display: block;
 	}
-	.home-desktop-description {
+	.home-expanded-description {
 		font-size: $font-size-base * 1.1;
 		width: 90%;
 		margin: auto;
 	}
-	.home-desktop-text {
+	.home-expanded-text {
 		position: absolute;
-		top: 35%;
-		left: 10%;
+		top: 30%;
+		left: 5%;
 		transform: translateY(-50%);
 		width: 40%;
 		text-align: center;
 	}
-	.home-desktop-text p {
+	.home-expanded-text p {
 		margin-bottom: 18px;
+	}
+	.home-headshot {
+		background-position: 70% center;
+	}
+}
+
+@media ( min-width: $screen-lg-min ) {
+	.home-expanded-text {
+		left: 10%;
+		top: 35%;
+	}
+	.home-headshot {
+		background-position: right center;
 	}
 }
 

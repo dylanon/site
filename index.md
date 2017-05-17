@@ -38,12 +38,12 @@ layout: home
 
 </div>
 
-<div class="home-desktop">
-	<div class="home-desktop-text">
+<div class="home-expanded">
+	<div class="home-expanded-text">
 		<p class="h1-mynameis">
 			Hi. My name is <span class="text-accent">Dylan On</span>.
 		</p>
-		<div class="home-desktop-description">
+		<div class="home-expanded-description">
 			<p>
 				I'm an arts administrator by day and
 				a web designer by night - an occasional theatre producer,
