@@ -10,17 +10,23 @@ layout: default
       {% if page.categories contains 'longform' %}
         <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
       {% else %}
-        <h1 class="post-title" itemprop="name headline">Microblog - {{ page.date | date: "%B %e, %Y at %l:%M%P" }}</h1>
+        <h1 class="post-title" itemprop="name headline">Microblog &middot; {{ page.date | date: "%B %e, %Y at %l:%M%P" }}</h1>
       {% endif %}
-      <hr>
-      <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %e, %Y at %l:%M%P" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
+      <div class="row">
+        <div class="col-sm-8">
+          <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %e, %Y" }}</time>{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="author-name text-accent">{{ page.author }}</span></span>{% endif %}</p>
+        </div>
+        <!-- <div class="dylan-thumb"></div> -->
+        <div class="col-sm-4 text-right text-lowercase">
+          <a href="{{ site.baseurl }}{% link blog.md %}">&larr;&nbsp;Back to Blog</a>
+        </div>
+      </div>
     </header>
 
     <div class="post-content clearboth" itemprop="articleBody">
       {{ content }}
     </div>
-
-    <p class="backtoblog text-lowercase text-right h4"><a href="{{ site.baseurl }}{% link blog.md %}">&larr;&nbsp;Back</a></p>
 
     {% if site.disqus.shortname %}
       {% include disqus_comments.html %}

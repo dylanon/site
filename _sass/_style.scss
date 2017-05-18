@@ -235,31 +235,6 @@ hr {
 // 	}
 // }
 
-// Blog Post view
-
-.post-view.container {
-	max-width: $post-width;
-	margin-top: 48px;
-}
-
-.post-title,
-.post-meta {
-	text-transform: lowercase;
-}
-
-.post-meta {
-	float: right;
-	margin-bottom: 36px;
-}
-
-// .post hr {
-// 	margin: 10px 0;
-// }
-
-.backtoblog {
-	margin-top: 24px;
-}
-
 // Blog view
 
 .blog-view {
@@ -323,7 +298,64 @@ hr {
 	}
 	.blog-view-header {
 		padding-left: $blog-column-divider;
-		font-size: 54px;
+		font-size: $screen-title-sm-and-above;
+	}
+}
+
+// Blog Post view
+
+.post-view {
+	@extend .blog-view;
+	max-width: $post-width;
+	// padding: 96px;
+	// margin-top: 48px;
+}
+
+.post-title,
+.post-meta {
+	text-transform: lowercase;
+}
+
+.post-meta {
+	// float: right;
+	// margin-bottom: 36px;
+}
+
+.post-content {
+	margin-top: 18px;
+}
+
+.post-title {
+	margin-top: 0;
+}
+
+.author-name {
+	text-transform: capitalize;
+	margin-left: 18px;
+}
+
+// .dylan-thumb {
+// 	// display: inline;
+// 	content: ' ';
+// 	width: 48px;
+// 	height: 48px;
+// 	background: url("dylan_on_headshot_thumb.jpg") center/cover;
+// }
+
+// .post hr {
+// 	margin: 10px 0;
+// }
+
+// .backtoblog {
+// 	margin-top: 24px;
+// }
+
+@media ( min-width: $screen-sm-min ) {
+	.post-title {
+		font-size: $screen-title-sm-and-above;
+	}
+	.post-view {
+		padding: $blog-post-padding;
 	}
 }
 
