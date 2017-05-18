@@ -39,10 +39,10 @@
 //@import "minima";
 
 // Variables
-$body-bg:					#f7f7f7;
+$body-bg:					#f1f1f1;
 // $home-width: 				775px;
 $post-width:				600px;
-$page-width:				500px;
+$page-width:				900px;
 $brand-primary:     		#eb8313;
 $link-hover-color:			#eb8313;
 $font-family-sans-serif:  	"Roboto", sans-serif;
@@ -55,6 +55,10 @@ $font-size-small:         	ceil(($font-size-base * 0.8));
 // $subpanel-bg:				#ffffff;
 $border-radius-base:       	7px;
 $shadow-color:				#d6d8db;
+$blog-top-padding:			95px;
+$blog-spacer:				64px;
+$blog-h2-size:				24px;
+$blog-column-divider:		24px;
 
 // Import partials from `bootstrap-sass`
 @import "bootstrap-custom";
