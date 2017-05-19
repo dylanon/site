@@ -30,7 +30,7 @@ layout: home
 			</p>
 
 			<p>
-				Read <a href="{{ site.baseurl }}{% link blog.md %}">my blog</a> for short thoughts, or <a href="mailto:hey@dylanon.com">get in touch</a> for web or performance projects.
+				Read <a href="{{ site.baseurl }}{% link blog/index.html %}">my blog</a> for short thoughts, or <a href="mailto:hey@dylanon.com">get in touch</a> for web or performance projects.
 			</p>
 		</div>
 
@@ -50,7 +50,7 @@ layout: home
 				and more frequent theatre <a href="https://twitter.com/dylanon">tweeter</a>.
 			</p>
 			<p>
-				Read <a href="{{ site.baseurl }}{% link blog.md %}">my blog</a> for short thoughts, or <a href="mailto:hey@dylanon.com">get in touch</a> for web or performance projects.
+				Read <a href="{{ site.baseurl }}{% link blog/index.html %}">my blog</a> for short thoughts, or <a href="mailto:hey@dylanon.com">get in touch</a> for web or performance projects.
 			</p>
 		</div>
 	</div>

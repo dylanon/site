@@ -283,6 +283,17 @@ hr {
 	padding-left: 18px;
 }
 
+.pagination {
+	display: block;
+	font-size: $font-size-base * 0.89;
+
+	.page_number,
+	.previous,
+	.next {
+		padding-left: 18px;
+	}
+}
+
 // Blog view - Tablet & Desktop
 @media ( min-width: $screen-sm-min ) {
 	.blog-view {
@@ -295,7 +306,7 @@ hr {
 		text-align: right;
 	}
 	.blog-list {
-		padding: 0 72px 0 $blog-column-divider;
+		padding: 0 $blog-right-padding 0 $blog-column-divider;
 	}
 	.blog-title-push {
 		display: block !important;
@@ -303,6 +314,9 @@ hr {
 	.blog-view-header {
 		padding-left: $blog-column-divider;
 		font-size: $screen-title-sm-and-above;
+	}
+	.pagination {
+		padding-right: $blog-right-padding;
 	}
 }
 
