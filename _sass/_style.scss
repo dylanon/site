@@ -352,23 +352,32 @@ hr {
 	margin-left: 18px;
 }
 
-// .dylan-thumb {
-// 	// display: inline;
-// 	content: ' ';
-// 	width: 48px;
-// 	height: 48px;
-// 	background: url("dylan_on_headshot_thumb.jpg") center/cover;
-// }
+.backtoblog p {
+	margin-bottom: 0;
+}
 
-// .post hr {
-// 	margin: 10px 0;
-// }
+.dylan-thumb {
+	width: $headshot-thumb-size;
+	height: $headshot-thumb-size;
+	clip-path: circle($headshot-thumb-size/2 at center);
+	margin-left: 18px;
+}
 
-// .backtoblog {
-// 	margin-top: 24px;
-// }
+.dylan-thumb-placeholder {
+	@extend .dylan-thumb;
+	display: none;
+}
 
 @media ( min-width: $screen-sm-min ) {
+	.backtoblog {
+		text-align: right;
+	}
+	.dylan-thumb-placeholder {
+		display: inline;
+		visibility: hidden;
+		width: 1px;
+		margin-left: 0;
+	}
 	.post-title {
 		font-size: $screen-title-sm-and-above;
 	}

@@ -14,12 +14,17 @@ layout: default
       {% endif %}
 
       <div class="row">
-        <div class="col-sm-8">
-          <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %e, %Y" }}</time>{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="author-name text-accent">{{ page.author }}</span></span>{% endif %}</p>
+        <div class="backtoblog col-sm-4 col-sm-push-8 text-lowercase">
+          <p>
+            <img class="dylan-thumb-placeholder" src="{{ site.baseurl }}/assets/dylan_on_headshot_thumb.jpg" >
+            <a href="{{ site.baseurl }}{% link blog/index.html %}">&larr;&nbsp;Back to Blog</a>
+          </p>
         </div>
-        <!-- <div class="dylan-thumb"></div> -->
-        <div class="col-sm-4 text-right text-lowercase">
-          <a href="{{ site.baseurl }}{% link blog/index.html %}">&larr;&nbsp;Back to Blog</a>
+        <div class="col-sm-8 col-sm-pull-4">
+          <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %e, %Y" }}</time>{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="author-name text-accent">{{ page.author }}</span></span>{% endif %}
+            <img class="dylan-thumb" src="{{ site.baseurl }}/assets/dylan_on_headshot_thumb.jpg" >
+          </p>
+
         </div>
       </div>
     </header>
