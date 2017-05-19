@@ -254,13 +254,17 @@ hr {
 	list-style: none;
 	padding: 0;
 
+	h2 {
+		font-size: $blog-h2-size;
+		text-transform: lowercase;
+	}
+
 	li {
 		margin: $blog-spacer 0;
 	}
 
-	h2 {
-		font-size: $blog-h2-size;
-		text-transform: lowercase;
+	p {
+		margin: 0 0 6px;
 	}
 
 	small {
