@@ -207,17 +207,17 @@
 }
 
 // Homepage Twitter hover
-body {
-	transition: background-color 0.8s, color 0.8s;
-}
+// body {
+// 	transition: background-color 0.8s, color 0.8s;
+// }
 
-a {
-	transition: color 0.8s;
-}
+// a {
+// 	transition: color 0.8s;
+// }
 
-hr {
-	transition: border-top-color 0.8s;
-}
+// hr {
+// 	transition: border-top-color 0.8s;
+// }
 
 // .home-footer {
 // 	position: absolute;
@@ -303,6 +303,7 @@ hr {
 	}
 	.blog-sidebar {
 		margin-top: $blog-spacer;
+		padding-left: 48px;
 		text-align: right;
 	}
 	.blog-list {
