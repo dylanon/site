@@ -239,7 +239,7 @@
 
 .blog-view {
 	max-width: $page-width;
-	background-color: #ffffff;
+	background-color: $content-bg;
 	padding-top: $blog-top-padding;
 	border-radius: $border-radius-base;
 	// margin-top: $page-top-margin;
@@ -323,6 +323,10 @@
 
 // Blog Post view
 
+body {
+	background-color: $content-bg;
+}
+
 .post-view {
 	@extend .blog-view;
 	max-width: $post-width;
@@ -370,6 +374,9 @@
 }
 
 @media ( min-width: $screen-sm-min ) {
+	body {
+		background-color: $body-bg;
+	}
 	.backtoblog {
 		text-align: right;
 	}
