@@ -1,0 +1,8 @@
+#!/bin/bash
+# Jekyll Deploy for dylanon.com
+
+JEKYLL_ENV=production bundle exec jekyll build
+git add *
+git commit -m "Post"
+git push deploy master
+exit
