@@ -4,6 +4,7 @@ date:   2017-05-30 16:45:00 -0400
 author: Dylan On
 title: A Few Quick Highlights from PACTcon
 category: longform
+permalink: /pactcon2017-highlights
 ---
 
 Feeling rejuvenated and charged with purpose and possibility after attending (and staffing) the [PACT conference](https://conference.pact.ca/) last week. Cannot believe how many artistic people I met! So lucky. Feeling like I have a much better idea of the organization's place (and my place) in the sector, and some new ideas about approaches I can take to my work.
