@@ -23,6 +23,13 @@
 	}
 }
 
+// Images
+.blog-list img,
+.post-content img {
+	@extend .img-responsive;
+	margin: 12px 0;
+}
+
 // Home
 
 // .viewport-high {
