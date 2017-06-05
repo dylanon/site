@@ -1099,7 +1099,8 @@ figure {
 img {
   vertical-align: middle; }
 
-.img-responsive {
+.img-responsive, .blog-list img,
+.post-content img {
   display: block;
   max-width: 100%;
   height: auto; }
@@ -5997,6 +5998,10 @@ button.close {
 @media (min-width: 768px) {
   .sm-hide {
     display: none; } }
+.blog-list img,
+.post-content img {
+  margin: 12px 0; }
+
 .h1-mynameis {
   margin: 0; }
 
