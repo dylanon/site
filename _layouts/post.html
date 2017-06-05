@@ -10,7 +10,7 @@ layout: default
       {% if page.categories contains 'longform' %}
         <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
       {% else %}
-        <h1 class="post-title" itemprop="name headline">Microblog &middot; {{ page.date | date: "%B %e, %Y at %l:%M%P" }}</h1>
+        <h1 class="post-title" itemprop="name headline">{{ page.date | date: "%B %e at %l:%M%P" }}</h1>
       {% endif %}
 
       <div class="row">
