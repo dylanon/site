@@ -344,6 +344,11 @@ body {
 	max-width: $post-width;
 	// padding: 96px;
 	// margin-top: 48px;
+	
+	iframe { // iframes in blog post view
+		margin: 12.5px 0;
+	}
+	
 }
 
 .micropost-view {
