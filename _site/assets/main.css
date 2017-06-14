@@ -6148,6 +6148,8 @@ body {
 
 .post-view, .micropost-view {
   max-width: 900px; }
+  .post-view iframe, .micropost-view iframe {
+    margin: 12.5px 0; }
 
 .micropost-view {
   max-width: 702px; }
