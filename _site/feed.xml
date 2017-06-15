@@ -8,6 +8,23 @@
 		<atom:link href="https://dylanon.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>SpiderWebShow Thought Residency - #7</title>
+				
+					<dc:creator>Dylan On</dc:creator>
+				        
+				
+					<description>&lt;p&gt;I’m listening to a real-time audio stream of the sound a tree makes falling in the forest. If you hear it too, did we share anything?&lt;/p&gt;
+
+&lt;p&gt;I heard that at every moment, bacteria are just leaping off of our bodies and into the environment. I think I’ve got a little piece of everyone I’ve ever sat beside in a theatre.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 15 Jun 2017 14:07:00 -0400</pubDate>
+				<link>https://dylanon.com/spiderwebshow-thought-residency-7/</link>
+				<guid isPermaLink="true">https://dylanon.com/spiderwebshow-thought-residency-7/</guid>
+			</item>
+		
+			<item>
 				<title></title>
 				
 					<dc:creator>Dylan On</dc:creator>
@@ -147,25 +164,6 @@ run &lt;code class=&quot;highlighter-rouge&quot;&gt;xcode-select --install&lt;/c
 				<pubDate>Mon, 12 Jun 2017 00:20:00 -0400</pubDate>
 				<link>https://dylanon.com/blog/2017/06/12/micro-1/</link>
 				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/12/micro-1/</guid>
-			</item>
-		
-			<item>
-				<title>SpiderWebShow Thought Residency - #4</title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
-				
-					<description>&lt;p&gt;Hey, it’s Dylan again. Thought #4 is about sharing, artistic labour, and money.&lt;/p&gt;
-
-&lt;p&gt;I’ll be among the first to advocate for more openness, more sharing of artistic works, the ability to build upon them… I think that if art is a public good it should be freely available.&lt;/p&gt;
-
-&lt;p&gt;However, I have to wonder if sharing freely in this way undervalues - devalues artistic labour in an industry that already has problems being undervalued socially and with actual dollars.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 08 Jun 2017 10:27:00 -0400</pubDate>
-				<link>https://dylanon.com/spiderwebshow-thought-residency-4/</link>
-				<guid isPermaLink="true">https://dylanon.com/spiderwebshow-thought-residency-4/</guid>
 			</item>
 		
 	</channel>
