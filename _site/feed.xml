@@ -13,6 +13,20 @@
 					<dc:creator>Dylan On</dc:creator>
 				        
 				
+					<description>&lt;p&gt;Switched over from &lt;a href=&quot;https://github.com/jekyll/jekyll-feed&quot;&gt;jekyll-feed&lt;/a&gt; to &lt;a href=&quot;https://github.com/snaptortoise/jekyll-rss-feeds&quot;&gt;jekyll-rss-feeds&lt;/a&gt; - So far so good. Great to have feeds by category in addition to &lt;a href=&quot;https://dylanon.com/feed.xml&quot;&gt;my main one&lt;/a&gt;.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 15 Jun 2017 00:21:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/15/1/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/15/1/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
+					<dc:creator>Dylan On</dc:creator>
+				        
+				
 					<description>&lt;p&gt;There is a rooftop paradise at work. Ok.
 &lt;img src=&quot;https://dylanon.com/assets/images/2017-06-14-rooftop.jpg&quot; alt=&quot;Rooftop view of downtown Toronto and the CN Tower&quot; title=&quot;Rooftop paradise&quot; /&gt;&lt;/p&gt;
 </description>
@@ -158,25 +172,6 @@ but let’s open source theatre technology.&lt;/p&gt;
 				<pubDate>Tue, 06 Jun 2017 13:17:00 -0400</pubDate>
 				<link>https://dylanon.com/blog/2017/06/06/micro-1/</link>
 				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/06/micro-1/</guid>
-			</item>
-		
-			<item>
-				<title>SpiderWebShow Thought Residency - #2</title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
-				
-					<description>&lt;p&gt;Hey, it’s Dylan and this is my second thought.&lt;/p&gt;
-
-&lt;p&gt;Today I’m thinking about &lt;a href=&quot;http://semver.org/&quot;&gt;Semantic Versioning&lt;/a&gt;, so for example, the process that governs our move from version 1 to version 2. In software, this is a huge shift introducing backwards-incompatible changes that mean you can’t use that software in the same way.&lt;/p&gt;
-
-&lt;p&gt;We can re-invent &lt;em&gt;Romeo &amp;amp; Juliet&lt;/em&gt; into version 2 and demand a fundamentally different engagement with that work, but the important question is: How do we get to version 3 from there, and how far can we go?&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Tue, 06 Jun 2017 13:09:00 -0400</pubDate>
-				<link>https://dylanon.com/spiderwebshow-thought-residency-2/</link>
-				<guid isPermaLink="true">https://dylanon.com/spiderwebshow-thought-residency-2/</guid>
 			</item>
 		
 	</channel>

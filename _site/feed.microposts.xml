@@ -9,6 +9,17 @@
 			<item>
 				<title></title>
 				
+					<description>&lt;p&gt;Switched over from &lt;a href=&quot;https://github.com/jekyll/jekyll-feed&quot;&gt;jekyll-feed&lt;/a&gt; to &lt;a href=&quot;https://github.com/snaptortoise/jekyll-rss-feeds&quot;&gt;jekyll-rss-feeds&lt;/a&gt; - So far so good. Great to have feeds by category in addition to &lt;a href=&quot;https://dylanon.com/feed.xml&quot;&gt;my main one&lt;/a&gt;.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 15 Jun 2017 00:21:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/15/1/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/15/1/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
 					<description>&lt;p&gt;There is a rooftop paradise at work. Ok.
 &lt;img src=&quot;https://dylanon.com/assets/images/2017-06-14-rooftop.jpg&quot; alt=&quot;Rooftop view of downtown Toronto and the CN Tower&quot; title=&quot;Rooftop paradise&quot; /&gt;&lt;/p&gt;
 </description>
@@ -108,17 +119,6 @@ run &lt;code class=&quot;highlighter-rouge&quot;&gt;xcode-select --install&lt;/c
 				<pubDate>Fri, 02 Jun 2017 00:18:00 -0400</pubDate>
 				<link>https://dylanon.com/blog/2017/06/02/micro-1/</link>
 				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/02/micro-1/</guid>
-			</item>
-		
-			<item>
-				<title></title>
-				
-					<description>&lt;p&gt;Okay, &lt;em&gt;now&lt;/em&gt; my micro.blog profile is set up properly. Follow me &lt;a href=&quot;https://micro.blog/dylanon&quot;&gt;here&lt;/a&gt;! (Tip for Jekyll users: set &lt;code class=&quot;highlighter-rouge&quot;&gt;title: &quot;&quot;&lt;/code&gt; in your YAML front matter for microblog posts, or else Jekyll will automatically generate a title from the file name.)&lt;/p&gt;
-</description>
-				
-				<pubDate>Thu, 01 Jun 2017 08:35:00 -0400</pubDate>
-				<link>https://dylanon.com/blog/2017/06/01/micro-1/</link>
-				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/01/micro-1/</guid>
 			</item>
 		
 	</channel>
