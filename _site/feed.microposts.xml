@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>dylan on - Microblog Posts</title>
+		<description>Posts categorized as 'microposts'</description>
+		<link>https://dylanon.com</link>
+		<atom:link href="https://dylanon.com/feed.microposts.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title></title>
+				
+					<description>&lt;p&gt;There is a rooftop paradise at work. Ok.
+&lt;img src=&quot;/assets/images/2017-06-14-rooftop.jpg&quot; alt=&quot;Rooftop view of downtown Toronto and the CN Tower&quot; title=&quot;Rooftop paradise&quot; /&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 14 Jun 2017 15:52:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/14/1/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/14/1/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
+					<description>&lt;p&gt;Wowed by the performance boost from &lt;a href=&quot;https://www.ifixit.com/Guide/MacBook+Unibody+Model+A1342+Hard+Drive+Replacement/1670&quot;&gt;replacing my hard disk drive&lt;/a&gt; with a &lt;a href=&quot;https://www.amazon.ca/gp/product/B01IAGSD68/&quot;&gt;solid state drive&lt;/a&gt;. Definitely worth it. Sad to see that newer models no longer have drives that are user-replaceable. Let’s get this 2010 Macbook (think white plastic) to its 10th birthday!&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 13 Jun 2017 23:49:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/13/2/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/13/2/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
+					<description>&lt;p&gt;I always thought macOS had git pre-installed - If you’re seeing 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun&lt;/code&gt;,
+run &lt;code class=&quot;highlighter-rouge&quot;&gt;xcode-select --install&lt;/code&gt; to &lt;a href=&quot;http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/&quot;&gt;install Command Line Tools&lt;/a&gt;.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 13 Jun 2017 12:11:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/13/1/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/13/1/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
+					<description>&lt;p&gt;Great chance to slow down and recharge this weekend with family. Lots of kicking back by the pool. Bring it, Monday.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 12 Jun 2017 00:20:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/12/micro-1/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/12/micro-1/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
+					<description>&lt;p&gt;&lt;a href=&quot;https://soundcloud.com/spiderweb-show/dylan-on-thought-2-semantic-versioning&quot;&gt;My 2nd thought for SpiderWebShow&lt;/a&gt; - I take a lot of inspiration from how developers organize their work. &lt;a href=&quot;https://twitter.com/search?q=%23cdncult&quot;&gt;#cdncult&lt;/a&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 06 Jun 2017 13:17:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/06/micro-1/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/06/micro-1/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
+					<description>&lt;p&gt;Wowed by &lt;a href=&quot;http://www.bellwoodsbrewery.com/&quot;&gt;Bellwoods Brewery&lt;/a&gt;’s Cherry Jelly King - Deliciously sour. I’m always taken by how easy-drinking Bellwoods’ beers are, despite being pretty adventurous with flavours and ABV.
+&lt;img src=&quot;/assets/images/2017-06-04-cherry-jelly-king.jpg&quot; alt=&quot;A bottle of Cherry Jelly King beer on a balcony, and a deep red pint.&quot; title=&quot;Cherry Jelly King&quot; /&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 04 Jun 2017 19:47:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/04/micro-2/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/04/micro-2/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
+					<description>&lt;p&gt;Imagining we’re still on that patio drinking some tasty brews… ☔
+&lt;img src=&quot;/assets/images/2017-06-03-cody.jpg&quot; alt=&quot;Cody at Bellwoods Brewery&quot; title=&quot;Cody at Bellwoods Brewery&quot; /&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 04 Jun 2017 10:29:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/04/micro-1/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/04/micro-1/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
+					<description>&lt;p&gt;Huge turnout last night for &lt;a href=&quot;http://theatrecentre.org/?p=10521&quot;&gt;Potluck XIV&lt;/a&gt; at The Theatre Centre. So impressed see the resources &lt;a href=&quot;http://fu-gen.org/&quot;&gt;fu-GEN&lt;/a&gt; consistently devotes to helping Asian Canadian creators develop new work. It’s important. And the value to the community is apparent. (Also the food is always unbelievable.)&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 03 Jun 2017 12:43:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/03/micro-1/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/03/micro-1/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
+					<description>&lt;p&gt;Putting on my thinking cap this month for &lt;a href=&quot;https://spiderwebshow.ca/&quot;&gt;SpiderWebShow&lt;/a&gt;! Check out &lt;a href=&quot;https://twitter.com/SpiderWebShow/status/870282320925913088&quot;&gt;the first installment of my Thought Residency here&lt;/a&gt;. New thoughts coming at you every Tues/Wed/Thurs throughout June. &lt;a href=&quot;https://twitter.com/search?q=%23cdncult&quot;&gt;#cdncult&lt;/a&gt;&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 02 Jun 2017 00:18:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/02/micro-1/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/02/micro-1/</guid>
+			</item>
+		
+			<item>
+				<title></title>
+				
+					<description>&lt;p&gt;Okay, &lt;em&gt;now&lt;/em&gt; my micro.blog profile is set up properly. Follow me &lt;a href=&quot;https://micro.blog/dylanon&quot;&gt;here&lt;/a&gt;! (Tip for Jekyll users: set &lt;code class=&quot;highlighter-rouge&quot;&gt;title: &quot;&quot;&lt;/code&gt; in your YAML front matter for microblog posts, or else Jekyll will automatically generate a title from the file name.)&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 01 Jun 2017 08:35:00 -0400</pubDate>
+				<link>https://dylanon.com/blog/2017/06/01/micro-1/</link>
+				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/01/micro-1/</guid>
+			</item>
+		
+	</channel>
+</rss>

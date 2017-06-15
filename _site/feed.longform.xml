@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>dylan on</title>
-		<description>Personal site for Dylan On, arts admin, web designer, and theatre tweeter.
-</description>		
+		<title>dylan on - Longform Posts</title>
+		<description>Posts categorized as 'longform'</description>
 		<link>https://dylanon.com</link>
-		<atom:link href="https://dylanon.com/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title></title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
-				
-					<description>&lt;p&gt;There is a rooftop paradise at work. Ok.
-&lt;img src=&quot;/assets/images/2017-06-14-rooftop.jpg&quot; alt=&quot;Rooftop view of downtown Toronto and the CN Tower&quot; title=&quot;Rooftop paradise&quot; /&gt;&lt;/p&gt;
-</description>
-				
-				<pubDate>Wed, 14 Jun 2017 15:52:00 -0400</pubDate>
-				<link>https://dylanon.com/blog/2017/06/14/1/</link>
-				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/14/1/</guid>
-			</item>
+		<atom:link href="https://dylanon.com/feed.longform.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>SpiderWebShow Thought Residency - #6</title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
 				
 					<description>&lt;p&gt;I ordered lunch through an app. I don’t usually order lunch, but today I did.&lt;/p&gt;
 
@@ -44,40 +25,7 @@ and how in my brain there’s many reasons why I should be concerned about this.
 			</item>
 		
 			<item>
-				<title></title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
-				
-					<description>&lt;p&gt;Wowed by the performance boost from &lt;a href=&quot;https://www.ifixit.com/Guide/MacBook+Unibody+Model+A1342+Hard+Drive+Replacement/1670&quot;&gt;replacing my hard disk drive&lt;/a&gt; with a &lt;a href=&quot;https://www.amazon.ca/gp/product/B01IAGSD68/&quot;&gt;solid state drive&lt;/a&gt;. Definitely worth it. Sad to see that newer models no longer have drives that are user-replaceable. Let’s get this 2010 Macbook (think white plastic) to its 10th birthday!&lt;/p&gt;
-</description>
-				
-				<pubDate>Tue, 13 Jun 2017 23:49:00 -0400</pubDate>
-				<link>https://dylanon.com/blog/2017/06/13/2/</link>
-				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/13/2/</guid>
-			</item>
-		
-			<item>
-				<title></title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
-				
-					<description>&lt;p&gt;I always thought macOS had git pre-installed - If you’re seeing 
-&lt;code class=&quot;highlighter-rouge&quot;&gt;xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun&lt;/code&gt;,
-run &lt;code class=&quot;highlighter-rouge&quot;&gt;xcode-select --install&lt;/code&gt; to &lt;a href=&quot;http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/&quot;&gt;install Command Line Tools&lt;/a&gt;.&lt;/p&gt;
-</description>
-				
-				<pubDate>Tue, 13 Jun 2017 12:11:00 -0400</pubDate>
-				<link>https://dylanon.com/blog/2017/06/13/1/</link>
-				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/13/1/</guid>
-			</item>
-		
-			<item>
 				<title>SpiderWebShow Thought Residency - #5</title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
 				
 					<description>&lt;p&gt;Did you watch the Tonys?&lt;/p&gt;
 
@@ -93,24 +41,7 @@ run &lt;code class=&quot;highlighter-rouge&quot;&gt;xcode-select --install&lt;/c
 			</item>
 		
 			<item>
-				<title></title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
-				
-					<description>&lt;p&gt;Great chance to slow down and recharge this weekend with family. Lots of kicking back by the pool. Bring it, Monday.&lt;/p&gt;
-</description>
-				
-				<pubDate>Mon, 12 Jun 2017 00:20:00 -0400</pubDate>
-				<link>https://dylanon.com/blog/2017/06/12/micro-1/</link>
-				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/12/micro-1/</guid>
-			</item>
-		
-			<item>
 				<title>SpiderWebShow Thought Residency - #4</title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
 				
 					<description>&lt;p&gt;Hey, it’s Dylan again. Thought #4 is about sharing, artistic labour, and money.&lt;/p&gt;
 
@@ -128,9 +59,6 @@ run &lt;code class=&quot;highlighter-rouge&quot;&gt;xcode-select --install&lt;/c
 			<item>
 				<title>SpiderWebShow Thought Residency - #3</title>
 				
-					<dc:creator>Dylan On</dc:creator>
-				        
-				
 					<description>&lt;p&gt;Hey, it’s Dylan with Thought #3.&lt;/p&gt;
 
 &lt;p&gt;As scrappy as theatres can be, we use a lot of technology, and most of it is proprietary. Other people build it, and theatres pay to use it.&lt;/p&gt;
@@ -147,24 +75,7 @@ but let’s open source theatre technology.&lt;/p&gt;
 			</item>
 		
 			<item>
-				<title></title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
-				
-					<description>&lt;p&gt;&lt;a href=&quot;https://soundcloud.com/spiderweb-show/dylan-on-thought-2-semantic-versioning&quot;&gt;My 2nd thought for SpiderWebShow&lt;/a&gt; - I take a lot of inspiration from how developers organize their work. &lt;a href=&quot;https://twitter.com/search?q=%23cdncult&quot;&gt;#cdncult&lt;/a&gt;&lt;/p&gt;
-</description>
-				
-				<pubDate>Tue, 06 Jun 2017 13:17:00 -0400</pubDate>
-				<link>https://dylanon.com/blog/2017/06/06/micro-1/</link>
-				<guid isPermaLink="true">https://dylanon.com/blog/2017/06/06/micro-1/</guid>
-			</item>
-		
-			<item>
 				<title>SpiderWebShow Thought Residency - #2</title>
-				
-					<dc:creator>Dylan On</dc:creator>
-				        
 				
 					<description>&lt;p&gt;Hey, it’s Dylan and this is my second thought.&lt;/p&gt;
 
@@ -177,6 +88,37 @@ but let’s open source theatre technology.&lt;/p&gt;
 				<pubDate>Tue, 06 Jun 2017 13:09:00 -0400</pubDate>
 				<link>https://dylanon.com/spiderwebshow-thought-residency-2/</link>
 				<guid isPermaLink="true">https://dylanon.com/spiderwebshow-thought-residency-2/</guid>
+			</item>
+		
+			<item>
+				<title>SpiderWebShow Thought Residency - #1</title>
+				
+					<description>&lt;p&gt;Hi, my name is Dylan On.&lt;/p&gt;
+
+&lt;p&gt;Today I’m thinking about artistic and cultural institutions and their subjectivity. Namely - do they have one?&lt;/p&gt;
+
+&lt;p&gt;Can institutions exist in a real way where they can bear responsibility, or do individuals like me simply speak them into existence?&lt;/p&gt;
+
+&lt;p&gt;I guess what I’m wrestling with is:
+When institutions fail… does the buck stop with me?&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 01 Jun 2017 10:14:00 -0400</pubDate>
+				<link>https://dylanon.com/spiderwebshow-thought-residency-1/</link>
+				<guid isPermaLink="true">https://dylanon.com/spiderwebshow-thought-residency-1/</guid>
+			</item>
+		
+			<item>
+				<title>A Few Quick Highlights from PACTcon</title>
+				
+					<description>&lt;p&gt;Feeling rejuvenated and charged with purpose and possibility after attending (and staffing) the &lt;a href=&quot;https://conference.pact.ca/&quot;&gt;PACT conference&lt;/a&gt; last week. Cannot believe how many artistic people I met! So lucky. Feeling like I have a much better idea of the organization’s place (and my place) in the sector, and some new ideas about approaches I can take to my work.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Tue, 30 May 2017 16:45:00 -0400</pubDate>
+				<link>https://dylanon.com/pactcon2017-highlights/</link>
+				<guid isPermaLink="true">https://dylanon.com/pactcon2017-highlights/</guid>
 			</item>
 		
 	</channel>
