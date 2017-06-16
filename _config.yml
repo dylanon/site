@@ -33,7 +33,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - README-minima.md
-  - [vendor] # for Travis builds
+  - vendor # for Travis builds
 google_analytics: UA-27894778-6
 paginate: 10
 paginate_path: "blog/:num/"
