@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.0.0p648
+- 2.0.0-p648
 
 script: JEKYLL_ENV=production bundle exec jekyll build
 
