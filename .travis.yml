@@ -2,6 +2,6 @@ language: ruby
 rvm:
 - 2.0.0p648
 
-script: bundle exec jekyll build
+script: JEKYLL_ENV=production bundle exec jekyll build
 
 sudo: false #explicitly route build to container-based infrastructure for a faster build
