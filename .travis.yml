@@ -5,4 +5,10 @@ language: ruby
 rvm:
 - 2.0.0-p648
 script: JEKYLL_ENV=production bundle exec jekyll build
+after_success:
+- eval "$(ssh-agent -s)"
+- chmod 600 .travis/deploy_key
+- ssh-add .travis/deploy_key
+- secure: "EQ4ekWek4dozZkDgEY3xwqyxuTLHlxCV6F4mRIOE+QA4gJcboOQi5YpjyLs/S6BnY7OHEuapCOpcGdmW47L/9nsHt3rAuNI3sEnWSURjwTFcLvBscQ7RyT4D7Xg13GBJOkDjHl6P32xXcayxNNOOj+Bv/BR3+x/lcp0xFItb5QbiLEjOU5kvZRcZlZJqRSqtyfPuhG4pDRGYYTQ8LmRlbVfl37zTQDgr8sxBB7feyIrt/Cy+eThznqP/GdjFYP01cllagOIg9ufnCnPLPYpr3L7qbhMS3bYtPu1rK/i7vnzAGAwLq/5xdDqVmJ0kAaeW3Q/kuk4t0yQSnxsl5kPlLGN425aVhx/wEnMTFiYnPYri17eubppZJ9U7XlqBg2/T4js1O5tv4G8zchTRNmj4YuIVCbkZMcW4OhPk6g59mqOoXVzZ3X/6ztFbjbKHXWq4HcIf+YTkE9BBP1PeBclcQ9zHbMOZ3h45FFEaNQ8KsCJ2gBviVALbEpgNo9/5MT0t445UGmgdPG60KphWkkFeIYYi7gO3o2xgvLjJeM2T9Ona4vJFf8ASVmyOuFfUsDvghpi+k5NIcfiaK/qS/xPLcgZPzg7juztrAg6qMx34K4PSAi/QQhQNQU101eCW3dhk/V+D+UCjnhyDiKYXiRXCHnZbbqde4L+lLuvUz2uKKyA="
+- git push deploy master
 sudo: false
