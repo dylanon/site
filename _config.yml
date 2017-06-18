@@ -29,12 +29,14 @@ gems:
   # - jekyll-feed
   - jekyll-paginate
 exclude:
+  - deploysite # Deploy script
   - Gemfile
   - Gemfile.lock
+  - LICENSE.txt
   - node_modules
+  - README.md
   - README-minima.md
   - vendor # for Travis builds
-  - deploysite # Deploy script
 google_analytics: UA-27894778-6
 paginate: 10
 paginate_path: "blog/:num/"
