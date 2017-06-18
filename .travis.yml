@@ -1,6 +1,5 @@
 before_install:
-- openssl aes-256-cbc -K $encrypted_b2df56cc9e48_key -iv $encrypted_b2df56cc9e48_iv
-  -in deploy_key.enc -out deploy_key -d
+- openssl aes-256-cbc -K $encrypted_b2df56cc9e48_key -iv $encrypted_b2df56cc9e48_iv -in deploy_key.enc -out deploy_key -d
 language: ruby
 rvm:
 - 2.0.0-p648
