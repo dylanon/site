@@ -33,6 +33,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE.txt
+  - mocks
   - node_modules
   - README.md
   - README-minima.md
