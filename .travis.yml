@@ -8,6 +8,8 @@ after_success:
 - eval "$(ssh-agent -s)"
 - chmod 600 .travis/deploy_key
 - ssh-add .travis/deploy_key
+- ssh -o StrictHostKeyChecking=no $DEPLOY_SERVER
+- exit
 - git remote add deploy $DEPLOY_REPO
-- StrictHostKeyChecking=no git push deploy master
+- git push deploy master
 sudo: false
