@@ -9,5 +9,5 @@ after_success:
 - chmod 600 .travis/deploy_key
 - ssh-add .travis/deploy_key
 - git remote add deploy $DEPLOY_REPO
-- yes | git push deploy master
+- StrictHostKeyChecking=no git push deploy master
 sudo: false
