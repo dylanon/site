@@ -11,5 +11,5 @@ after_success:
 - ssh-add .travis/deploy_key
 - cp -v .travis/ssh-config ~/.ssh/config
 - git remote -v add deploy $DEPLOY_REPO
-- git push deploy -v master
+- git push deploy
 sudo: false
