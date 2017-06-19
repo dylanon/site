@@ -37,7 +37,7 @@ exclude:
   - node_modules
   - README.md
   - README-minima.md
-  - vendor # for Travis builds
+  - vendor # for Travis build
 google_analytics: UA-27894778-6
 paginate: 10
 paginate_path: "blog/:num/"
