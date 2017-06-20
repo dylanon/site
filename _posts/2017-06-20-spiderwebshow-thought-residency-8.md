@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2017-06-20 11:04:00 -0400
+date:   2017-06-20 11:25:00 -0400
 author: Dylan On
 permalink: /spiderwebshow-thought-residency-8/
 category: longform
