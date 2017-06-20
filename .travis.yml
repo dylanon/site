@@ -1,7 +1,10 @@
 before_install:
 - openssl aes-256-cbc -K $encrypted_b2df56cc9e48_key -iv $encrypted_b2df56cc9e48_iv -in .travis/deploy_key.enc -out .travis/deploy_key -d
 language: ruby
-cache: bundler
+cache:
+  bundler: true
+  directories:
+  - /home/travis/.rvm
 rvm:
 - 2.0.0-p648
 script: JEKYLL_ENV=production bundle exec jekyll build
