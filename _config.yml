@@ -40,6 +40,6 @@ exclude:
   - vendor # for Travis builds
 google_analytics: UA-27894778-6
 paginate: 10
-paginate_path: "blog/:num/"
+paginate_path: "blog/page/:num/"
 permalink: /blog/:year/:month/:day/:title/
 timezone: America/Toronto
