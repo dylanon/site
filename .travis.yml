@@ -9,7 +9,7 @@ notifications:
   email:
     recipients:
       - $NOTIFY_EMAIL
-    on_success: never # default: always
+    on_success: always # default: change
     on_failure: always # default: always
 after_success:
 - eval "$(ssh-agent -s)"
