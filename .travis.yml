@@ -5,6 +5,12 @@ cache: bundler
 rvm:
 - 2.0.0-p648
 script: JEKYLL_ENV=production bundle exec jekyll build
+notifications:
+  email:
+    recipients:
+      - $NOTIFY_EMAIL
+    on_success: never # default: always
+    on_failure: always # default: always
 after_success:
 - eval "$(ssh-agent -s)"
 - chmod 600 .travis/deploy_key
