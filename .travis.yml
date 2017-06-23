@@ -19,14 +19,14 @@ after_success:
 - chmod 600 .travis/deploy_key
 - ssh-add .travis/deploy_key
 - cp -v .travis/ssh-config ~/.ssh/config
-- scp /home/travis/build/dylanon/site/_site/index.html $DEPLOY_STAGING
+- scp /home/travis/build/dylanon/site/_site/index.html $DEPLOY_STAGING/index.html
 # after_success:
 # - eval "$(ssh-agent -s)"
 # - chmod 600 .travis/deploy_key
 # - ssh-add .travis/deploy_key
 # - cp -v .travis/ssh-config ~/.ssh/config
 # - cd /home/travis/build/dylanon/site/_site
-# - scp -r . $DEPLOY_STAGING/index.html
+# - scp -r . $DEPLOY_STAGING
 # - cd ..
 # - git remote -v add deploy $DEPLOY_REPO
 # - git fetch --unshallow
