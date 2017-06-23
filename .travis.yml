@@ -8,18 +8,18 @@ script: JEKYLL_ENV=production bundle exec jekyll build
 notifications:
   email:
     recipients:
-      - $NOTIFY_EMAIL
+      secure: "RCDVFisiZltKCRbdnkUKETjB0FxPNa37xV4zkssUeFN2khdA4u1zBvQxe93GH8udCgmxJorRjU3hpk0BtToL+eQDAIgj9tMj05a3llUdMUGsh0kfnJY0zYNOi35NUeke0cUJgQ8AhUB6adqpMhIKEgw4m2pRB9Nf5jNaHHIkLPtm0UyF7AhX+6jqVN1CbIxES70bhMGhrph1N9kvWA60bHA+NSSsRLl9WX1aN4QrwgB6AKSm6EmRBqmowBJlT0AwLsSgfH0hMsQv2XMOTTMZuT31x0TlmDt54aPqWPO66sthjeenBxhTIzLTgsXQrGbmn3YoySJjLGdNAlcdTUwrVw+tNl1peyh2sBtopXp8eGfpk3g+0Vc3J2D/I91Wm/VI7ImLAF9LS+r4W5khSypyUGUMtlPNXGOwqmufWzDAJ9ErQ8t0Lt/RetcJlvTPS2m2r04r92+d7Y767Dqf10eDyH32jxJFobAn2RJIUJT1Zmw54QSix8dMCcwrn7T72ZqhI5S7SdHuRUssUpgVBK2FBLENc+8moR174TBSxMLyHnaV3BUbJyERs5ll3goL6ma0CpX6aBR6vHsmYF2YTyanAyvtyySLzlyiqqVjvDQbfCymUkUp9y/RrU9XnlwGjYPKVDrJ+IPneZc5QtpxpdaJBuc8Ktu5KPUZxFTt4xccmo8="
     on_success: always # default: change
     on_failure: always # default: always
-after_success:
-- eval "$(ssh-agent -s)"
-- chmod 600 .travis/deploy_key
-- ssh-add .travis/deploy_key
-- cp -v .travis/ssh-config ~/.ssh/config
-- cd /home/travis/build/dylanon/site/_site
-- scp -r . $DEPLOY_STAGING
-- cd ..
-- git remote -v add deploy $DEPLOY_REPO
-- git fetch --unshallow
-- git push deploy master
+#after_success:
+#- eval "$(ssh-agent -s)"
+#- chmod 600 .travis/deploy_key
+#- ssh-add .travis/deploy_key
+#- cp -v .travis/ssh-config ~/.ssh/config
+#- cd /home/travis/build/dylanon/site/_site
+#- scp -r . $DEPLOY_STAGING
+#- cd ..
+#- git remote -v add deploy $DEPLOY_REPO
+#- git fetch --unshallow
+#- git push deploy master
 sudo: false
