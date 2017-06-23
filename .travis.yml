@@ -26,7 +26,7 @@ after_success:
 # - ssh-add .travis/deploy_key
 # - cp -v .travis/ssh-config ~/.ssh/config
 # - cd /home/travis/build/dylanon/site/_site
-# - scp -r . $DEPLOY_STAGING
+# - scp -r . $DEPLOY_STAGING/index.html
 # - cd ..
 # - git remote -v add deploy $DEPLOY_REPO
 # - git fetch --unshallow
