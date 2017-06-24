@@ -14,21 +14,14 @@ notifications:
     on_success: always
     on_failure: always
 after_success:
-after_success:
 - eval "$(ssh-agent -s)"
 - chmod 600 .travis/deploy_key
 - ssh-add .travis/deploy_key
 - cp -v .travis/ssh-config ~/.ssh/config
-- scp -v /home/travis/build/dylanon/site/_site/index.html $DEPLOY_TESTFILE
-# after_success:
-# - eval "$(ssh-agent -s)"
-# - chmod 600 .travis/deploy_key
-# - ssh-add .travis/deploy_key
-# - cp -v .travis/ssh-config ~/.ssh/config
-# - cd /home/travis/build/dylanon/site/_site
-# - scp -r . $DEPLOY_STAGING
-# - cd ..
-# - git remote -v add deploy $DEPLOY_REPO
-# - git fetch --unshallow
-# - git push deploy master
+- cd /home/travis/build/dylanon/site/_site
+- scp -r . $DEPLOY_STAGING
+- cd ..
+- git remote -v add deploy $DEPLOY_REPO
+- git fetch --unshallow
+- git push deploy master
 sudo: false
