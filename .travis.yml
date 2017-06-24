@@ -4,7 +4,9 @@ language: ruby
 cache: bundler
 rvm:
 - 2.0.0-p648
-script: JEKYLL_ENV=production bundle exec jekyll build
+env:
+- JEKYLL_ENV=production 
+script: bundle exec jekyll build
 notifications:
   email:
     recipients:
