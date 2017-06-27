@@ -1,9 +1,8 @@
 ---
 layout: post
 date:   2017-05-30 16:45:00 -0400
-author: Dylan On
 title: A Few Quick Highlights from PACTcon
-category: longform
+tags: fullpost
 permalink: /pactcon2017-highlights/
 ---
 

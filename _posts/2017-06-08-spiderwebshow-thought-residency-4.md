@@ -1,9 +1,8 @@
 ---
 layout: post
 date:   2017-06-08 10:27:00 -0400
-author: Dylan On
 permalink: /spiderwebshow-thought-residency-4/
-category: longform
+tags: fullpost
 title: "SpiderWebShow Thought Residency - #4"
 excerpt_separator: <!--more-->
 ---
