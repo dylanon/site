@@ -7,7 +7,7 @@ layout: default
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header">
-      {% if page.categories contains 'longform' %}
+      {% if page.tags contains 'fullpost' %}
         <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
       {% else %}
         <h1 class="post-title" itemprop="name headline">{{ page.date | date: "%B %e at %l:%M%P" }}</h1>
