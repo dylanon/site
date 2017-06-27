@@ -43,3 +43,12 @@ paginate: 10
 paginate_path: "blog/page/:num/"
 permalink: /blog/:year/:month/:day/:title/
 timezone: America/Toronto
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      author: "Dylan On"
+      tags: micropost
+      title: ""
