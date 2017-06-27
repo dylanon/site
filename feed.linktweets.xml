@@ -1,0 +1,30 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ site.title | xml_escape }} - Link Tweets for IFTTT</title>
+		<description>These microblog posts will be cross-posted to Twitter with an external link.</description>
+		<link>{{ site.url }}</link>
+		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
+
+		{% for post in site.tags.micropost %}
+			{% if linktweet_counter == 10 %}
+				{% break %}
+			{% else %}
+				{% if post.tags contains 'tweet' and post.link %}
+						<item>
+							<title>{{ post.title | xml_escape }}</title>
+								<description>{{ post.content | xml_escape }}</description>
+							<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+							<link>{{ post.link | escape }}</link>
+							<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+						</item>
+						{% assign linktweet_counter = linktweet_counter | plus: 1 %}
+				{% else %}
+					{% continue %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	</channel>
+</rss>
