@@ -27,7 +27,7 @@ title: blog
     <ul class="blog-list">
       {% for post in paginator.posts %}
         <li>
-          {% if post.categories contains 'longform' %}
+          {% if post.tags contains 'fullpost' %}
             <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
             {{ post.excerpt }}
             <small class="timestamp"><a href="{{ post.url }}">Read more &rarr;</a></small>
