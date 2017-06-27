@@ -3,22 +3,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>{{ site.title | xml_escape }} - Microblog Posts</title>
-		<description>Posts categorized as 'microposts'</description>
+		<title>{{ site.title | xml_escape }} - Microposts for IFTTT</title>
+		<description>These microblog posts will be cross-posted to Twitter with a permalink</description>
 		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-		{% for post in site.categories.microposts limit:10 %}
-			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}</description>
-				{% else %}
-					<description>{{ post.content | xml_escape }}</description>
-				{% endif %}
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-			</item>
+
+		{% for post in site.tags.micropost %}
+			{% if micropost_counter == 10 %}
+				{% break %}
+			{% else %}
+				{% unless post.tags contains 'tweet' %}
+					<item>
+						<title>{{ post.title | xml_escape }}</title>
+							<description>{{ post.content | xml_escape }}</description>
+						<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+						<link>{{ site.url }}{{ post.url }}</link>
+						<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+					</item>
+					{% assign micropost_counter = micropost_counter | plus: 1 %}
+				{% endunless %}
+			{% endif %}
 		{% endfor %}
 	</channel>
 </rss>
