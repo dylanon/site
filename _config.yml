@@ -50,5 +50,6 @@ defaults:
       type: "posts"
     values:
       author: "Dylan On"
+      layout: post
       tags: micropost
       title: ""
