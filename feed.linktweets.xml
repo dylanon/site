@@ -13,16 +13,14 @@
 				{% break %}
 			{% else %}
 				{% if post.tags contains 'tweet' and post.link %}
-						<item>
-							<title>{{ post.title | xml_escape }}</title>
-								<description>{{ post.content | xml_escape }}</description>
-							<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-							<link>{{ post.link | escape }}</link>
-							<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-						</item>
-						{% assign linktweet_counter = linktweet_counter | plus: 1 %}
-				{% else %}
-					{% continue %}
+					<item>
+						<title>{{ post.title | xml_escape }}</title>
+							<description>{{ post.content | xml_escape }}</description>
+						<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+						<link>{{ post.link | escape }}</link>
+						<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+					</item>
+					{% assign linktweet_counter = linktweet_counter | plus: 1 %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}

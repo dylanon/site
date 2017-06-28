@@ -12,17 +12,15 @@
 			{% if tweet_counter == 10 %}
 				{% break %}
 			{% else %}
-				{% if post.tags contains 'tweet' and post.tweetpicture == true %}
-						<item>
-							<title>{{ post.title | xml_escape }}</title>
-								<description>{{ post.content | xml_escape }}</description>
-							<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-							<link>{{ site.url }}{{ post.url }}</link>
-							<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-						</item>
-						{% assign tweet_counter = tweet_counter | plus: 1 %}
-				{% else %}
-					{% continue %}
+				{% if post.tags contains 'tweet' and post.picture %}
+					<item>
+						<title>{{ post.title | xml_escape }}</title>
+							<description>{{ post.content | xml_escape }}</description>
+						<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+						<link>{{ site.url }}{{ post.url }}</link>
+						<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+					</item>
+					{% assign tweet_counter = tweet_counter | plus: 1 %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
