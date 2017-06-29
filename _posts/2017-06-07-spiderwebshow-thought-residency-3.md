@@ -2,6 +2,7 @@
 layout: post
 date:   2017-06-07 11:43:00 -0400
 permalink: /spiderwebshow-thought-residency-3/
+categories: thought-residency
 tags: fullpost
 title: "SpiderWebShow Thought Residency - #3"
 excerpt_separator: <!--more-->
