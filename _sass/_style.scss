@@ -417,9 +417,27 @@ body {
 }
 
 // Page layout
+.page-header {
+	margin: 0 0 25px 0;
+}
+
 .page-view.container {
+	@extend .blog-view;
 	max-width: $page-width;
 	// margin-top: 48px;
+}
+
+.post-list {
+	@extend .blog-list;
+}
+
+@media ( min-width: $screen-sm-min ) {
+	.page-view {
+		padding: $blog-post-padding;
+	}
+	.post-list {
+		padding: 0;
+	}
 }
 
 hr {
