@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2017-06-00 00:00:00 -0400
+date:   2017-06-01 00:00:00 -0400
 author: Dylan On
 permalink: 
 category: longform
