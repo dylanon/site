@@ -1,7 +1,8 @@
 ---
 layout: post
-date:   2017-06-28 18:00:00 -0400
+date:   2017-06-29 11:28:00 -0400
 permalink: /spiderwebshow-thought-residency-13/
+categories: thought-residency
 tags: fullpost
 title: "SpiderWebShow Thought Residency - #13"
 excerpt_separator: <!--more-->
@@ -19,7 +20,7 @@ Thank you.
 
 <!--more-->
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330544976&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330733938&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 <p class="small">
   This material was created by <a href="https://dylanon.com/">Dylan On</a> and <a href="https://spiderwebshow.ca/">spiderwebshow.ca</a>, 
