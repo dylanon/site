@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
-    {% if page.title == "" and page.categories contains 'microposts' %}
+    {% if page.title == "" and page.tags contains 'micropost' %}
       {{ page.date | date: "%B %e at %l:%M%P" | append:" | " | append:site.title | downcase | escape }}
     {% elsif page.title %}
       {{ page.title | append:" | " | append:site.title | downcase | escape }}
