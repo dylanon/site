@@ -362,8 +362,7 @@ body {
 }
 
 .post-meta {
-	// float: right;
-	// margin-bottom: 36px;
+	margin-top: 10px;
 }
 
 .post-content {
@@ -388,11 +387,11 @@ body {
 	height: $headshot-thumb-size;
 	clip-path: circle($headshot-thumb-size/2 at center);
 	margin-left: 18px;
+	display: none;
 }
 
 .dylan-thumb-placeholder {
 	@extend .dylan-thumb;
-	display: none;
 }
 
 @media ( min-width: $screen-sm-min ) {
@@ -402,11 +401,17 @@ body {
 	.backtoblog {
 		text-align: right;
 	}
+	.dylan-thumb {
+		display: inline;
+	}
 	.dylan-thumb-placeholder {
 		display: inline;
 		visibility: hidden;
 		width: 1px;
 		margin-left: 0;
+	}
+	.post-meta {
+		margin-top: 0;
 	}
 	.post-title {
 		font-size: $screen-title-sm-and-above;
