@@ -1,7 +1,7 @@
 ---
 layout:		page
 title: 		SpiderWebShow Thought Residency
-permalink:	/thought-residency
+permalink:	/thought-residency/
 ---
 
 <div class="panel panel-default page-description">
