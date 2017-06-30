@@ -6,7 +6,8 @@ permalink:	/thought-residency
 
 <div class="panel panel-default page-description">
   <div class="panel-body text-center">
-	30-second thoughts recorded and published on <a href="https://spiderwebshow.ca">spiderwebshow.ca</a> every Tuesday, Wednesday, and Thursday throughout June 2017.
+	30-second thoughts about <strong>online performance</strong>, <strong>theatre technology</strong>, <strong>emerging artists</strong>, and the <strong>Canadian theatre landscape</strong>.
+	Recorded and published on <a href="https://spiderwebshow.ca/thought-residency-dylan-on/">spiderwebshow.ca</a> every Tuesday, Wednesday, and Thursday throughout June 2017.
   </div>
 </div>
 
