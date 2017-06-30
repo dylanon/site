@@ -4,7 +4,7 @@ title: 		SpiderWebShow Thought Residency
 permalink:	/thought-residency
 ---
 
-<div class="panel panel-default">
+<div class="panel panel-default page-description">
   <div class="panel-body text-center">
 	30-second thoughts recorded and published on <a href="https://spiderwebshow.ca">spiderwebshow.ca</a> every Tuesday, Wednesday, and Thursday throughout June 2017.
   </div>

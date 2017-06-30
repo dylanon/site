@@ -418,7 +418,8 @@ body {
 
 // Page layout
 .page-header {
-	margin: 0 0 25px 0;
+	margin: 0;
+	border-bottom: none;
 }
 
 .page-view {
@@ -432,6 +433,10 @@ body {
 	@extend .blog-view;
 	max-width: $page-width;
 	// margin-top: 48px;
+}
+
+.page-description { // remove top margin from panel
+	margin-top: 0;
 }
 
 .post-list {
