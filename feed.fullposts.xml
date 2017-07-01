@@ -9,7 +9,7 @@
 		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
 		{% for post in site.tags.fullpost limit:10 %}
 			<item>
-				<title>{{ post.title | xml_escape }}</title>
+				<title>{{ post.title | xml_escape }} {{ post.hashtags | xml_escape }}</title>
 				{% if post.excerpt %}
 					<description>{{ post.excerpt | xml_escape }}</description>
 				{% else %}
