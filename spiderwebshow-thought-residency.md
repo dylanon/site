@@ -2,6 +2,7 @@
 layout:		page
 title: 		SpiderWebShow Thought Residency
 permalink:	/thought-residency/
+excerpt: "30-second thoughts about online performance, theatre technology, emerging artists, and the Canadian theatre landscape. Recorded and published on spiderwebshow.ca every Tuesday, Wednesday, and Thursday throughout June 2017."
 ---
 
 <div class="panel panel-default page-description">
