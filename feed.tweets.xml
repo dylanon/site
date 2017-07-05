@@ -9,7 +9,7 @@
 		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
 
 		{% for post in site.tags.micropost %}
-			{% if tweet_counter == 10 %}
+			{% if tweet_counter == 10 or post.crosspost == false %}
 				{% break %}
 			{% else %}
 				{% if post.link or post.picture %}

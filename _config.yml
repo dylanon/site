@@ -54,3 +54,4 @@ defaults:
       layout: post
       tags: micropost
       title: ""
+      crosspost: true
