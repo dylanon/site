@@ -11,8 +11,10 @@
 		{% for post in site.tags.micropost %}
 			{% if tweet_counter == 10 %}
 				{% break %}
+			{% elsif post.crosspost != true %}
+				{% continue %}
 			{% else %}
-				{% if post.crosspost == false or post.link or post.picture %}
+				{% if post.link or post.picture %}
 					{% continue %}
 				{% elsif post.tags contains 'tweet' %}
 					<item>
