@@ -11,6 +11,8 @@
 		{% for post in site.tags.micropost %}
 			{% if micropost_counter == 10 %}
 				{% break %}
+			{% elsif post.crosspost != true %}
+				{% continue %}
 			{% else %}
 				{% unless post.tags contains 'tweet' %}
 					<item>
