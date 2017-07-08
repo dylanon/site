@@ -2,13 +2,15 @@
 layout: home
 ---
 
+<!-- Small devices -->
 <div class="container-fluid headshot-container">
 
 	<div class="home-headshot">
-
+		<!-- Translucent panel -->
 		<div class="panel-mynameis">
 			<p class="invisible h1-mynameis">Hi. My name is <span class="text-accent">Dylan On</span>.</p>
 		</div>
+		<!-- Panel content -->
 		<div class="panel-mynameis-text text-center">
 			<p class="h1-mynameis">Hi. My name is <span class="text-accent">Dylan On</span>.</p>
 		</div>
@@ -37,7 +39,9 @@ layout: home
 	</div>
 
 </div>
+<!-- End small devices -->
 
+<!-- Large devices -->
 <div class="home-expanded">
 	<div class="home-expanded-text">
 		<p class="h1-mynameis">
@@ -55,3 +59,17 @@ layout: home
 		</div>
 	</div>
 </div>
+<!-- End large devices -->
+
+<!-- h-card -->
+<div class="hidden h-card">
+  <img class="u-photo" src="{{ site.baseurl }}/assets/dylan_on_headshot_square.jpg" alt="Dylan On" />
+  <a class="p-name u-url" href="http://example.org">Dylan On</a>
+  <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+  <p class="p-note">
+	I'm an arts administrator by day and
+	a web designer by night - an occasional theatre producer,
+	and more frequent theatre tweeter.
+  </p> 
+</div>
+<!-- End h-card -->
