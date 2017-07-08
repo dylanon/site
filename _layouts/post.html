@@ -4,13 +4,13 @@ layout: default
 
 <div class="{% if page.tags contains 'fullpost' %}post-view{% else %}micropost-view{% endif %} container">
 
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header">
       {% if page.tags contains 'fullpost' %}
-        <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+        <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
       {% else %}
-        <h1 class="post-title" itemprop="name headline">{{ page.date | date: "%B %e at %l:%M%P" }}</h1>
+        <h1 class="post-title p-name" itemprop="name headline">{{ page.date | date: "%B %e at %l:%M%P" }}</h1>
       {% endif %}
 
       <div class="row">
@@ -21,7 +21,7 @@ layout: default
           </p>
         </div>
         <div class="col-sm-8 col-sm-pull-4">
-          <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %e, %Y" }}</time>{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="author-name text-accent">{{ page.author }}</span></span>{% endif %}
+          <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="dt-published">{{ page.date | date: "%B %e, %Y" }}</time>{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="author-name p-author h-card text-accent">{{ page.author }}</span></span>{% endif %}
             <img class="dylan-thumb" src="{{ site.baseurl }}/assets/dylan_on_headshot_thumb.jpg" >
           </p>
 
@@ -29,7 +29,7 @@ layout: default
       </div>
     </header>
 
-    <div class="post-content clearboth" itemprop="articleBody">
+    <div class="post-content e-content clearboth" itemprop="articleBody">
       {{ content }}
     </div>
 
