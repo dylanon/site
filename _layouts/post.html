@@ -29,7 +29,7 @@ layout: default
       </div>
     </header>
 
-    <div class="post-content e-content clearboth" itemprop="articleBody">
+    <div class="post-content e-content clearboth{% unless page.tags contains 'fullpost' %} p-name{% endunless %}" itemprop="articleBody">
       {{ content }}
     </div>
 
