@@ -21,7 +21,7 @@ layout: default
           </p>
         </div>
         <div class="col-sm-8 col-sm-pull-4">
-          <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="dt-published">{{ page.date | date: "%B %e, %Y" }}</time>{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="author-name p-author h-card text-accent">{{ page.author }}</span></span>{% endif %}
+          <p class="post-meta"><a href="{{ site.url }}{{ page.url }}" class="u-url"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="dt-published">{{ page.date | date: "%B %e, %Y" }}</time></a>{% if page.author %} <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="author-name p-author h-card text-accent">{{ page.author }}</span></span>{% endif %}
             <img class="dylan-thumb" src="{{ site.baseurl }}/assets/dylan_on_headshot_thumb.jpg" >
           </p>
 
