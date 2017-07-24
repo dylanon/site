@@ -1,0 +1,30 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{{ site.title | xml_escape }}</title>
+		<description>This feed is the source for posts auto-crossposted to Twitter. Posts I have decided not to crosspost have been filtered out. For my full, unfiltered feed, see feed.xml.</description>		
+		<link>{{ site.url }}</link>
+		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
+		{% for post in site.posts %}
+			{% if post_counter == 10 %}
+				{% break %}
+			{% elsif post.crosspost != true %}
+				{% continue %}
+			{% else %}
+				<item>
+					<title>{{ post.title | xml_escape }}</title>
+					{% if post.author %}
+						<dc:creator>{{ post.author | xml_escape }}</dc:creator>
+					{% endif %}        
+					<description>{{ post.content | xml_escape }} {{ post.hashtags | xml_escape }}</description>
+					<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+					<link>{{ site.url }}{{ post.url }}</link>
+					<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				</item>
+				{% assign post_counter = post_counter | plus: 1 %}
+			{% endif %}
+		{% endfor %}
+	</channel>
+</rss>
