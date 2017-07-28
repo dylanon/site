@@ -24,6 +24,7 @@ group :jekyll_plugins do
    gem "autoprefixer-rails"
    gem "jekyll-assets"
    gem "jekyll-paginate"
+   gem "jekyll-lunr-js-search"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
