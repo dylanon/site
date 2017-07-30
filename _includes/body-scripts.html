@@ -6,3 +6,31 @@
 <!-- <script src="{{ site.baseurl }}/javascripts/twitterhover.js"></script> -->
 <!-- Search with lunr.js -->
 <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+{{#entries}}
+	{{#is_post}}
+		<li>
+			{{#title}}
+				<a href="{{url}}">{{title}}</a>
+			{{/title}}
+			{{^title}}
+				<a href="{{url}}">Microblog post - {{displaydate}}</a>
+			{{/title}}
+		</li>
+	{{/is_post}}
+{{/entries}}
+<hr>
+</script>
+{% endraw %}
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl  : '/js/index.json',           // url for the .json file containing search index data
+      results   : '#search-results',          // selector for containing search results element
+      template  : '#search-results-template', // selector for Mustache.js template
+      titleMsg  : '<h2>Search results</h2>',   // message attached in front of results (can be empty)
+      emptyMsg  : '<h2>Search results</h2><br><p>Nothing found.</p><hr>'     // shown message if search returns no results
+    });
+  });
+</script>

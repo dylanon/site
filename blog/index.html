@@ -24,7 +24,10 @@ title: Blog
 
   <div class="col-sm-8 col-sm-push-4">
 
+    <ul id="search-results" style="display: none;"></ul>
+
     <ul class="blog-list">
+
       {% for post in paginator.posts %}
         <li>
           {% if post.tags contains 'fullpost' %}
