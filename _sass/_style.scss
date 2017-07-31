@@ -252,6 +252,12 @@
 	// margin-top: $page-top-margin;
 	// height: 100vh;
 
+	form {
+		margin-bottom: $line-height-computed / 2;
+	}
+	#search-query {
+		border-radius: $border-radius-base;
+	}
 	h2,
 	.h2 {
 		font-size: $blog-h2-size;
