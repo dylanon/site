@@ -252,9 +252,15 @@
 	// margin-top: $page-top-margin;
 	// height: 100vh;
 
+	h2,
 	.h2 {
 		font-size: $blog-h2-size;
 	}
+	h2 {
+		text-transform: lowercase;
+		margin-top: 0;
+	}
+
 }
 
 .blog-view-header {
@@ -265,14 +271,12 @@
 	list-style: none;
 	padding: 0;
 
-	h2 {
-		font-size: $blog-h2-size;
-		text-transform: lowercase;
-		margin-top: 0;
-	}
-
 	li {
 		margin: 0 0 $blog-spacer 0;
+	}
+
+	li.search-result {
+		margin: 0 0 ($line-height-computed / 2) 0;
 	}
 
 	p {
